@@ -6,7 +6,7 @@ Snapshots are an essential feature in virtualization, especially for cybersecuri
 
 This enables safe testing and learning without the risk of permanently damaging the system. If something goes wrong—such as misconfiguration, failed installations, or system crashes—I can quickly revert to a previous state instead of reinstalling Kali Linux from scratch.
 
-🔧 How to Create a Snapshot (VirtualBox)
+`🔧 How to Create a Snapshot (VirtualBox)`
 Step 1: Ensure the VM State is Stable
 
 Before creating a snapshot, it is recommended to power off the virtual machine to ensure system consistency.
