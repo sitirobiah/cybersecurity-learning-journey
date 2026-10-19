@@ -1,4 +1,4 @@
-## Level 0: Connect to the server
+## Level 0: Connect to the server##
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
