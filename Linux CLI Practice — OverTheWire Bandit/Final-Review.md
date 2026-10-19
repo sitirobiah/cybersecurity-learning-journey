@@ -176,20 +176,4 @@ For each challenge, I practiced reading the instructions, identifying the inform
 
 ## Next Step
 Continue practicing Linux CLI tasks and apply the same method to beginner-friendly cybersecurity labs.
-"""
-for rel, content in files.items():
-    path = os.path.join(root, rel)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content.strip() + "\n")
 
-zip_path = "/mnt/data/03_Linux_CLI_OverTheWire_Bandit.zip"
-with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
-    for dirpath, _, filenames in os.walk(root):
-        for filename in filenames:
-            full = os.path.join(dirpath, filename)
-            arc = os.path.relpath(full, "/mnt/data")
-            z.write(full, arc)
-
-print(f"Created {len(files)} files in {root}")
-print(f"ZIP: {zip_path}")
