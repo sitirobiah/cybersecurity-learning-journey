@@ -1,0 +1,65 @@
+# OverTheWire Bandit: Levels 0–5
+
+## Level 0: Connect to the Server
+
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
+
+- `ssh` opens a secure remote terminal session.
+- `-p 2220` specifies the server port.
+
+## Level 1: Read a File
+
+```bash
+cat readme
+```
+
+- `cat` displays the contents of a file in the terminal.
+
+## Level 2: Handle a Filename Starting with a Dash
+
+```bash
+cat ./-
+```
+
+- `./` specifies the current directory.
+- It helps prevent `-` from being interpreted as a command-line option.
+
+## Level 3: Read a Filename Containing Spaces
+
+```bash
+cat "spaces in this filename"
+```
+
+- Double quotes keep the words together as a single filename.
+
+## Level 4: Find Hidden Files
+
+```bash
+ls -la
+cat .hidden
+```
+
+- `ls -la` lists all entries, including hidden files, with detailed information.
+- Linux filenames beginning with `.` are hidden by default.
+
+## Level 5: Find a File by Its Properties
+
+```bash
+find . -type f
+find . -type f -size 1033c
+```
+
+- `find` searches for files and directories.
+- `-type f` selects regular files.
+- `-size 1033c` finds files exactly 1,033 bytes in size.
+- The size is specific to the challenge; always follow the actual level clues.
+
+## Key Takeaways
+
+- Connecting to remote servers using SSH.
+- Reading files with `cat`.
+- Handling filenames with special characters and spaces.
+- Finding hidden files with `ls -la`.
+- Searching for files using `find`.
