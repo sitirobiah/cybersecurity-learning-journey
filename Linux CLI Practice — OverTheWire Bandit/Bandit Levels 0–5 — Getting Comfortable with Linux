@@ -63,3 +63,4 @@ find . -type f -size 1033c
 - Handling filenames with special characters and spaces.
 - Finding hidden files with `ls -la`.
 - Searching for files using `find`.
+- Searching for files using `find`.
