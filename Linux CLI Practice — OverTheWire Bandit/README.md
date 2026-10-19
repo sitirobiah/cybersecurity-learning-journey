@@ -1,36 +1,80 @@
+# Linux CLI Practice — OverTheWire Bandit
+
 ## Overview
-This folder documents my beginner practice with Linux command-line tools through OverTheWire Bandit.
 
-**Goal:** Learn how to navigate Linux, inspect files, understand permissions, use SSH, work with text and archives, and explore basic networking concepts.
+This repository documents my learning journey through the OverTheWire Bandit wargame.
 
-## Folder Structure
-- `01_Bandit_Level_Writeups/` — Short notes grouped by level.
-- `02_Command_Reference/` — Quick explanations of useful commands.
-- `03_Lessons_Learned.md` — Summary of the skills practiced.
+The challenges helped me practice Linux command-line operations, file management, permissions, networking basics, SSH, and Git fundamentals.
 
-## How to Use These Notes
-Each level group includes the main idea, commands, and a short explanation. Commands may need small changes depending on the current directory or file names.
+My goal is to understand how commands work, solve problems step by step, and build practical cybersecurity skills.
+
+## Learning Progress
+
+- **Levels 0–26:** Linux CLI fundamentals and system exploration.
+- **Levels 27–31:** Git repositories, history, tags, and version control.
+- **Levels 32–33:** Shell behavior and the final challenges.
+
+## Table of Contents
+
+### Part 1 — Linux CLI Fundamentals
+
+| File | Topics |
+|---|---|
+| [Levels 00–05](01_level-00-to-05.md) | Basic navigation, reading files, hidden files, and file discovery |
+| [Levels 06–10](02_Levels_06-10.md) | Finding files, searching text, unique lines, strings, and Base64 |
+| [Levels 11–15](03_Levels_11-15.md) | ROT13, file inspection, compression, SSH keys, and network services |
+| [Levels 16–20](04_Levels_16-20.md) | Port scanning, file comparison, SSH commands, and SUID |
+| [Levels 21–25](05_Levels_21-25.md) | Cron jobs, scripts, network services, and SSH |
+| [Level 26 — Completed](06_Levels_26-Completed.md) | Restricted shell investigation and challenge review |
+
+### Part 2 — Git Fundamentals
+
+| File | Topics |
+|---|---|
+| [Levels 27–29](07_Levels_27-29.md) | Git repositories, cloning, history, and repository inspection |
+| [Levels 30–31](08_Levels_30-31.md) | Git tags, repository content, and commits |
+| [Levels 32–33](09_Levels_32-33.md) | Special shell behavior and final challenge |
+
+### Part 3 — Reference and Review
+
+| File | Purpose |
+|---|---|
+| [Git Command Reference](Git_Command_Reference.md) | Quick reference for commonly used Git commands |
+| [Final Review](Final-Review.md) | Summary of the learning journey and key takeaways |
+
+## Key Skills Practiced
+
+- Linux terminal navigation and file inspection.
+- Searching for files and text.
+- Understanding file permissions and ownership.
+- Using SSH and SCP for remote access and file transfer.
+- Inspecting ports and network services in a controlled lab.
+- Working with compressed files and archives.
+- Exploring cron jobs and SUID permissions.
+- Using Git to inspect repositories and track changes.
+- Troubleshooting unfamiliar command-line environments.
+
+## My Learning Approach
+
+For each challenge, I practiced reading the instructions, identifying the problem, choosing suitable commands, checking the output, and reviewing what I learned.
+
+I also documented commands and concepts to make future revision easier.
 
 ## Security Note
-These notes intentionally do not include passwords, private keys, or other credentials. In a public portfolio, never publish challenge passwords or secret files.
 
-## Progress
-- [x] Practiced the Bandit levels covered in these notes
-- [x] Reviewed common Linux CLI commands
-- [ ] Continue practicing without step-by-step tutorials
-"""
-files["01_Bandit_Level_Writeups/README.md"] = r"""# Bandit Level Notes
+This repository is for educational purposes. Passwords, private SSH keys, tokens, and other sensitive credentials should never be published.
 
-The notes are grouped by related levels to keep them short and easy to review.
+All practical activities were performed as part of the authorized OverTheWire Bandit environment.
 
-| File | Main topics |
-|---|---|
-| `01_Levels_00-05.md` | SSH, listing files, reading files, hidden files, unusual filenames |
-| `02_Levels_06-10.md` | Finding files, permissions, searching text, file types, Base64 |
-| `03_Levels_11-15.md` | ROT13, file inspection, compression and archives, SSH keys |
-| `04_Levels_16-20.md` | Ports, TLS, comparing files, setuid |
-| `05_Levels_21-25.md` | Cron jobs, scripts, networking, SSH keys and shell behavior |
-| `06_Levels_26-Completed.md` | Restricted shells, reading files, final review |
+## Lessons Learned
 
-**Learning approach:** Understand what each command does, why it is useful, and how to verify its output. These notes are summaries, not a replacement for the challenge instructions.
-"""
+Completing these challenges helped me become more familiar with the Linux command line and basic Git workflows.
+
+I learned that solving a challenge requires more than memorizing commands. It requires understanding the environment, interpreting output, testing ideas, and learning from mistakes.
+
+## Next Steps
+
+- Continue practicing Linux CLI commands independently.
+- Improve my understanding of networking and permissions.
+- Practice Git using my own projects.
+- Apply these fundamentals in beginner-friendly cybersecurity labs.
