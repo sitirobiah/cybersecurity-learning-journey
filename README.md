@@ -1,33 +1,33 @@
 # Cybersecurity Learning Journey
 
-> A structured documentation of my technical progress, hands-on security labs, and practical skills development in ethical hacking and offensive security.
+> A structured documentation of my technical learning, hands-on security labs, and practical skills development in foundational cybersecurity.
 
 ---
 
 ## 👤 Executive Summary
-I am an **Informatics Engineering** student specializing in practical cybersecurity fundamentals. My focus centers on offensive security, command-line fluency, and system vulnerabilities through hands-on lab environments and wargames.
+I am an **Informatics Engineering** student building a strong foundational knowledge in **Cybersecurity**. My current focus is on mastering system administration, command-line operations, networking fundamentals, and security concepts through practical, hands-on lab environments.
 
-* **Primary Interest:** Ethical Hacking & Penetration Testing
-* **Secondary Focus:** Red Teaming & Linux Systems Administration
-* **Learning Philosophy:** Documenting in public & learning through hands-on practice (*Proof of Work*)
-
----
-
-## 🎯 Strategic Goals
-* **Technical Mastery:** Build strong proficiency in network security analysis, penetration testing methodologies, and red team strategies.
-* **Hands-on Experience:** Consistently document lab exercises, CTF write-ups, and tool development.
-* **Career Growth:** Prepare for industry-recognized certifications (e.g., eJPT, Security+, PJPT) and pursue entry-level cybersecurity roles.
+* **Primary Focus:** Core Cybersecurity Principles & System Security
+* **Key Technical Base:** Linux Systems, Networking & Command Line Proficiency
+* **Learning Philosophy:** Documenting progress in public & building skills through practical exercise (*Proof of Work*)
 
 ---
 
-## 🛠️ Technical Focus & Stack
+## 🎯 Learning Objectives
+* **Foundational Knowledge:** Gain a well-rounded understanding of both defensive and offensive security principles.
+* **Hands-on Practice:** Consistently document technical lab exercises, CLI challenges, and security research.
+* **Continuous Growth:** Build a solid technical base to prepare for future specialized tracks and industry certifications.
+
+---
+
+## 🛠️ Technical Focus & Core Skills
 
 | Domain | Key Focus Areas |
 | :--- | :--- |
-| **Operating Systems** | Kali Linux, Debian/Ubuntu Administration, CLI Workflow |
-| **Networking** | TCP/IP Architecture, Subnetting, Network Protocols, Traffic Analysis |
+| **Operating Systems** | Linux Administration (Kali, Debian/Ubuntu), CLI Workflow, File Systems |
+| **Networking** | TCP/IP Architecture, Subnetting, Protocol Analysis, Network Traffic Basics |
 | **Lab Environments** | OverTheWire (Bandit), VirtualBox/VMware, TryHackMe |
-| **Core Utilities** | `find`, `grep`, `awk`/`sed`, OpenSSH, Netcat, Bash Scripting |
+| **Essential Utilities** | `find`, `grep`, `sort`/`uniq`, OpenSSH, Bash Basics, Text Processing |
 
 ---
 
@@ -38,6 +38,6 @@ I am an **Informatics Engineering** student specializing in practical cybersecur
 ├── 01_Bandit_Levels_00-05.md       # Linux CLI basics & navigation
 ├── 02_Bandit_Levels_06-10.md       # File properties & data filtering
 ├── 03_Bandit_Levels_11-15.md       # Text processing & data encoding
-├── 04_Bandit_Levels_16-20.md       # Port scanning & SSH key authentication
+├── 04_Bandit_Levels_16-20.md       # Port scanning & SSH authentication
 ├── ...
 └── README.md                       # Main repository overview
